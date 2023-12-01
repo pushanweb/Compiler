@@ -1,0 +1,126 @@
+library <stdio>
+
+main fop fcp
+sop
+	var_a $ var_d >> Inttype #
+	var_b $ var_d >> Floattype #
+	var_c >> Chartype #
+	
+	var_a @ 2 #
+	var_a @ inc var_a #
+	var_a @ var_a sub 3 #
+	
+	readin fop var_b fcp #
+	
+	writeout fop var_a fcp #
+	
+	var_b @ 2.2 #
+	
+	writeout fop var_b fcp #
+
+	writeout fop 2 add 2 fcp #
+
+	var_c @ "Pushan" #
+	
+	writeout fop var_c fcp #
+
+	inc 8 #
+	dec 8 #
+	1 add 12 div 4 mul 4 #
+	50 sub 15 add 8 div 2 mul 5 #
+	3 div 0 #
+
+	
+	var_a @ max fop 1 add 12 div 4 mul 4 $ 50 sub 15 add 8 div 2 mul 5 fcp #
+	
+	var_d @ min fop 120 add 200 $ var_a mul 2 fcp #
+
+	var_d @ fact fop 5 fcp #
+	writeout fop var_d fcp #
+
+
+	flp fop 2 : 6 fcp 
+	sop 
+		var_a @ var_a add 1 #
+	scp
+
+	flp fop 2 : 6 : 2 fcp 
+	sop 
+		4 add 2 #
+	scp
+
+	flp fop 6 : 2 fcp 
+	sop 
+		4 add 4 #
+	scp
+
+	flp fop 6 : 2 : 2 fcp 
+	sop 
+		4 add 4 #
+	scp
+
+
+	wlp fop 0 lrt 5 fcp 
+	sop 
+		4 add 2 # 
+	scp
+
+	wlp fop 6 grt 1 fcp 
+	sop 
+		6 mul 3 #
+	scp
+
+	
+	iff fop prime fop 3 fcp fcp
+	sop
+		var_a @ 3 #
+	scp
+		
+	iff fop oppose fop var_a add 100 lrt@ var_d fcp fcp
+	sop
+		writeout fop var_d fcp #
+	scp
+
+	oriff fop var_a add 100 lrt@ var_d fcp
+	sop
+		3 add 2 #
+	scp
+
+	iff fop 7 lrt 5 fcp
+	sop	
+		7 add 6 mul 2 #
+	scp
+
+	otherwise
+	sop
+		6 add 8 mul 4 #
+	scp
+
+	iff fop 7 grt 5 fcp
+	sop
+		iff fop 7 lrt 5 fcp
+		sop
+			7 add 7 add 6 #
+		scp
+		otherwise
+		sop
+			3 add 8 div 4 #
+		scp
+	scp
+
+	otherwise
+	sop
+		6 mul 3 sub 1 #
+	scp
+
+
+	multiple fop 4 fcp 
+	sop 
+		choice 1 : 4 add 2 # 
+		choice 2 : 3 add 2 # 
+		nop : 3 exp 2 # 
+	scp                                       
+	
+
+	
+scp

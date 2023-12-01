@@ -1,0 +1,122 @@
+Include the library <stdio>
+Variable type--> Integer
+var_d is already declared
+Variable type--> Float
+Variable type--> Character
+
+Variable value--> 2
+inc: 3
+
+Variable value--> 3
+
+Variable value--> 0
+
+Read command found for variable--> var_b, but no further implementaion
+Int Variable name--> var_a, Value--> 0
+
+Variable value--> 2.000000
+Float Variable name--> var_b, Value--> 2.000000
+4
+
+Variable value--> ÀÝ
+Char Variable name--> var_c, Value--> (%Ý
+inc: 9
+
+value of expression: 9
+dec: 7
+
+value of expression: 7
+
+value of expression: 13
+
+value of expression: 55
+
+division by zero	
+value of expression: 0
+55 is greater than 13
+
+Variable value--> 55
+110 is less than 320
+
+Variable value--> 110
+
+Factorial of 5 is 120
+Variable value--> 120
+Int Variable name--> var_d, Value--> 120
+
+Variable value--> 56
+For Loop :
+Step : 2 and value of expression : 56
+Step : 3 and value of expression : 56
+Step : 4 and value of expression : 56
+Step : 5 and value of expression : 56
+
+value of expression: 6
+For Loop :
+Step : 2 and value of expression : 2
+Step : 4 and value of expression : 2
+
+value of expression: 8
+For Loop :
+Step : 6 and value of expression : 8
+Step : 5 and value of expression : 8
+Step : 4 and value of expression : 8
+Step : 3 and value of expression : 8
+
+value of expression: 8
+For Loop :
+Step : 6 and value of expression : 2
+Step : 4 and value of expression : 2
+
+value of expression: 6
+While LOOP:
+step: 0 value of expression :6 
+step: 1 value of expression :6 
+step: 2 value of expression :6 
+step: 3 value of expression :6 
+step: 4 value of expression :6 
+
+
+value of expression: 18
+While LOOP:
+step: 0 value of expression :18 
+step: 1 value of expression :18 
+step: 2 value of expression :18 
+step: 3 value of expression :18 
+step: 4 value of expression :18 
+
+
+Variable value--> 3
+
+We are  in IF and the value is: 3
+Int Variable name--> var_d, Value--> 120
+
+value of expression: 5
+
+We are  in ELSEIF and the value is: 5
+
+condition value zero in IF block
+
+value of expression: 19
+
+value of expression: 38
+
+ELSE condition is detected
+condition value zero in IF block
+
+value of expression: 20
+
+value of expression: 5
+
+ELSE condition is detected
+condition value zero in IF block
+
+value of expression: 17
+
+ELSE condition is detected
+We are  in IF and the value is: 5
+
+Result in default Value is :  9
+SWITCH case.
+
+Successful compilation
